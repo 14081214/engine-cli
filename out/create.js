@@ -1,6 +1,7 @@
 "use strict";
-var fs = require('fs-extra');
-var path = require('path');
+Object.defineProperty(exports, "__esModule", { value: true });
+var fs = require("fs-extra");
+var path = require("path");
 function create(projectPath) {
     if (!projectPath) {
         throw new Error("请输入路径！！！！");
